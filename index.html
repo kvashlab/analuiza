@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Luiza | Media Kit & Links</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Plus+Jakarta+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="vakinha-alert fade-in" onclick="openVakinhaModal()">
+            <i class="ph-fill ph-hand-heart"></i>
+            <span>Ajude a Loja Sant: Clique e saiba mais</span>
+            <i class="ph-bold ph-caret-right"></i>
+        </div>
+
+        <header class="profile-header fade-in">
+            <div class="profile-image">
+                <img src="assets/Perfil.jpeg" alt="Luiza Santini">
+            </div>
+            <h1>AnaLuiza <i class="ph-fill ph-seal-check verified-badge"></i></h1>
+            <span class="badge">@a_luizax • Influencer Digital</span>
+            <p class="bio">Lifestyle, Moda e Conteúdo Criativo.</p>
+
+            <div class="social-links">
+                <a href="https://instagram.com/a_luizax" target="_blank" class="social-btn"><i
+                        class="ph ph-instagram-logo"></i></a>
+                <a href="https://www.tiktok.com/@santiniluizax?_r=1&_t=ZS-93nMbaEtNeX" target="_blank"
+                    class="social-btn"><i class="ph ph-tiktok-logo"></i></a>
+                <a href="mailto:santini41fsa@gmail.com?subject=Agendamento%20no%20site&body=Olá,%0A%0ANome:%20%0ATelefone:%20%0AE-mail:%20%0AMensagem:%20"
+                    class="social-btn"><i class="ph ph-envelope-simple"></i></a>
+            </div>
+        </header>
+
+        <section class="stats-grid fade-in">
+            <div class="stat-card main-stat">
+                <i class="ph ph-fire"></i>
+                <h3>+4 Milhões</h3>
+                <p>Visualizações (30 dias)</p>
+            </div>
+            <div class="stat-card">
+                <i class="ph ph-eye"></i>
+                <h3>2k - 6k</h3>
+                <p>Alcance Stories</p>
+            </div>
+            <div class="stat-card">
+                <i class="ph ph-heart"></i>
+                <h3>+1k</h3>
+                <p>Curtidas/Post</p>
+            </div>
+        </section>
+
+        <div class="service-toggle fade-in">
+            <button class="toggle-btn active" onclick="switchTab('publicidade')">Publicidade</button>
+            <button class="toggle-btn" onclick="switchTab('provador')">Provador de Loja</button>
+        </div>
+
+        <div id="publicidade" class="content-tab active fade-in">
+            <div class="info-note">
+                <i class="ph ph-info"></i> Pagamento: 50% de entrada.
+            </div>
+
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h3>Pacote 1</h3>
+                    <div class="price">R$ 170 <span>+ produto</span></div>
+                </div>
+                <ul class="features">
+                    <li><i class="ph ph-check"></i> 3 Stories + 1 Reels</li>
+                    <li><i class="ph ph-check"></i> Sequência de Stories com CTA</li>
+                    <li><i class="ph ph-check"></i> Apresentação do produto</li>
+                    <li><i class="ph ph-clock"></i> Destaque: 6 meses</li>
+                </ul>
+                <a href="mailto:santini41fsa@gmail.com?subject=Orçamento%20Pacote%201&body=Olá,%0A%0ANome:%20%0ATelefone:%20%0AE-mail:%20%0AMensagem:%20Quero%20contratar%20o%20Pacote%201"
+                    class="cta-button">Contratar</a>
+            </div>
+
+            <div class="pricing-card featured">
+                <div class="tag">Mais Popular</div>
+                <div class="card-header">
+                    <h3>Pacote 2</h3>
+                    <div class="price">R$ 210 <span>+ produto</span></div>
+                </div>
+                <ul class="features">
+                    <li><i class="ph ph-check"></i> 4 Stories + 1 Reels</li>
+                    <li><i class="ph ph-check"></i> Sequência CTA + Fotos/Vídeos</li>
+                    <li><i class="ph ph-check"></i> Conteúdo atrativo</li>
+                    <li><i class="ph ph-clock"></i> Destaque: 8 meses</li>
+                </ul>
+                <a href="mailto:santini41fsa@gmail.com?subject=Orçamento%20Pacote%202&body=Olá,%0A%0ANome:%20%0ATelefone:%20%0AE-mail:%20%0AMensagem:%20Quero%20contratar%20o%20Pacote%202"
+                    class="cta-button">Contratar</a>
+            </div>
+
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h3>Pacote 3</h3>
+                    <div class="price">R$ 300 <span>+ produto</span></div>
+                </div>
+                <ul class="features">
+                    <li><i class="ph ph-check"></i> 1 Reels Completo</li>
+                    <li><i class="ph ph-check"></i> 6 Stories com CTA</li>
+                    <li><i class="ph ph-check"></i> Vídeos e Fotos extras</li>
+                    <li><i class="ph ph-clock"></i> Destaque: 1 ano</li>
+                </ul>
+                <a href="mailto:santini41fsa@gmail.com?subject=Orçamento%20Pacote%203&body=Olá,%0A%0ANome:%20%0ATelefone:%20%0AE-mail:%20%0AMensagem:%20Quero%20contratar%20o%20Pacote%203"
+                    class="cta-button">Contratar</a>
+            </div>
+        </div>
+
+        <div id="provador" class="content-tab fade-in" style="display: none;">
+            <div class="info-note">
+                <i class="ph ph-coat-hanger"></i> Inclui localização e edição completa.
+            </div>
+
+            <div class="pricing-card">
+                <div class="card-header">
+                    <h3>Básico</h3>
+                    <div class="price">R$ 180 <span>+ produto</span></div>
+                </div>
+                <ul class="features">
+                    <li><i class="ph ph-check"></i> Provador com 10 Looks (Stories)</li>
+                    <li><i class="ph ph-check"></i> Até 10 Stories com marcações</li>
+                    <li><i class="ph ph-check"></i> Inclusão de localização</li>
+                </ul>
+                <a href="mailto:santini41fsa@gmail.com?subject=Orçamento%20Provador%20Básico&body=Olá,%0A%0ANome:%20%0ATelefone:%20%0AE-mail:%20%0AMensagem:%20Quero%20agendar%20o%20Provador%20Básico"
+                    class="cta-button">Agendar</a>
+            </div>
+
+            <div class="pricing-card featured">
+                <div class="tag">Mais Popular</div>
+                <div class="card-header">
+                    <h3>Intermediário</h3>
+                    <div class="price">R$ 220 <span>+ produto</span></div>
+                </div>
+                <ul class="features">
+                    <li><i class="ph ph-check"></i> 10 Looks (Stories + 1 Reels)</li>
+                    <li><i class="ph ph-check"></i> 10+ Stories bem editados</li>
+                    <li><i class="ph ph-check"></i> Marcações + Legenda personalizada</li>
+                </ul>
+                <a href="mailto:santini41fsa@gmail.com?subject=Orçamento%20Provador%20Intermediário&body=Olá,%0A%0ANome:%20%0ATelefone:%20%0AE-mail:%20%0AMensagem:%20Quero%20agendar%20o%20Provador%20Intermediário"
+                    class="cta-button">Agendar</a>
+            </div>
+
+            <div class="pricing-card premium">
+                <div class="card-header">
+                    <h3>Premium</h3>
+                    <div class="price">R$ 300 <span>+ produto</span></div>
+                </div>
+                <ul class="features">
+                    <li><i class="ph ph-check"></i> 10 Looks (Stories + Reels + Feed)</li>
+                    <li><i class="ph ph-check"></i> Link de Afiliado / Cupons</li>
+                    <li><i class="ph ph-check"></i> Relatório de desempenho</li>
+                    <li><i class="ph ph-star"></i> Repostagem garantida</li>
+                </ul>
+                <a href="mailto:santini41fsa@gmail.com?subject=Orçamento%20Provador%20Premium&body=Olá,%0A%0ANome:%20%0ATelefone:%20%0AE-mail:%20%0AMensagem:%20Quero%20agendar%20o%20Provador%20Premium"
+                    class="cta-button">Agendar</a>
+            </div>
+        </div>
+
+        <footer class="footer fade-in">
+            <p>Entre em contato: <a href="mailto:santini41fsa@gmail.com">santini41fsa@gmail.com</a></p>
+            <p class="copy">© 2026 Luiza Santini. All rights reserved.</p>
+            <p class="credits">Desenvolvido por <a href="https://www.instagram.com/kvashlab" target="_blank">KVASH
+                    Lab</a></p>
+        </footer>
+    </div>
+
+    <div id="vakinhaModal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeVakinhaModal()"><i class="ph ph-x"></i></button>
+            <div class="modal-header">
+                <div class="icon-box-logo">
+                    <img src="assets/LogoSant.png" alt="Logo Sant" class="modal-logo">
+                </div>
+                <h2>Loja Sant</h2>
+            </div>
+            <div class="modal-body">
+                <p>Oi, pessoal! A loja está crescendo e preciso ampliar o estoque e melhorar os envios. Por isso,
+                    criei essa vaquinha de forma transparente. Todo o valor será usado apenas para reposição de
+                    mercadorias.<br><br>Se não puder contribuir, basta compartilhar, já ajuda
+                    muito!<br><br><strong>Atenciosamente,</strong><br>Ana Luiza, Loja Sant</p>
+                <div class="goal-box">
+                    <span>Meta: Crescimento & Estoque</span>
+                </div>
+            </div>
+            <a href="https://www.vakinha.com.br/vaquinha/projeto-loja-sant?utm_source=google-ads&utm_medium=cpc&utm_campaign=GA%20-%20%5BSearch%5D%20%5BVakinhas%5D%20Marca%20(Convers%C3%A3o)&utm_content=link_in_bio&fbclid=PAb21jcAP3j1pleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAaesad3YyT7m5kyWuXUasEtlEAKDQ0ZxzYjYf5LrUjgEhp6r8cDQwhEg6G6T0Q_aem_DcBf-RbyITCmJb-CXElALw"
+                target="_blank" class="vakinha-btn">
+                Contribuir na Vakinha <i class="ph-bold ph-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
